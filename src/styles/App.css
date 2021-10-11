@@ -1,0 +1,11 @@
+html {
+    background-color: #111f27;
+    color: white;
+    height: 100vh;
+}
+
+body {
+    margin: 0;
+    height: inherit;
+    cursor: none;
+}
