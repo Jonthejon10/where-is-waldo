@@ -2,6 +2,7 @@ import React from 'react'
 import '../styles/Home.css'
 import {useHistory} from 'react-router-dom'
 import Navbar from './Navbar'
+import Footer from './Footer'
 
 const Home = () => {
     const history = useHistory();
@@ -15,6 +16,7 @@ const Home = () => {
                     <h2>Playstation 2 level</h2>
                 </div>
             </div>
+            <Footer/>
         </div>
     )
 }

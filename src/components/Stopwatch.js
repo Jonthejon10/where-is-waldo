@@ -39,8 +39,8 @@ const Stopwatch = ({ setTime, stopTimer }) => {
     const minutes = `${Math.floor(timer / 60)}`
     const getMinutes = `0${minutes % 60}`.slice(-2)
     return (
-        <div className='stopwatch-card' style={{ fontSize: 50, marginTop: 20}}>
-            <p>{getMinutes}:{getSeconds}</p> {/* here we will show timer */}
+        <div className='stopwatch-card'>
+            <p>{getMinutes}:{getSeconds}</p>
         </div>
     );
 

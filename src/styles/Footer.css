@@ -1,0 +1,24 @@
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    font-family: arcade;
+    font-size: 14px;
+    background-color: #292d4a;
+}
+
+footer button {
+    border: none;
+    background-image: url('../images/github.png');
+    background-position: center;
+    background-size: cover;
+    background-color: transparent;
+    height: 40px;
+    width: 40px;
+    transition: transform .5s ease-in-out;
+}
+
+footer button:hover {
+    transform: rotate(360deg);
+}

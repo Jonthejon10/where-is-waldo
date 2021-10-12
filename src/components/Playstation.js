@@ -1,5 +1,5 @@
 /* eslint-disable no-unused-vars */
-import React, {useEffect, useImperativeHandle, useReducer, useState} from 'react'
+import React, {useEffect, useState} from 'react'
 import Modal from 'react-modal'
 import { useHistory } from 'react-router-dom'
 import Stopwatch from './Stopwatch'
@@ -30,6 +30,7 @@ const Playstation = () => {
             found: false
         }
     ])
+
     const [users, setUsers] = useState([])
     
     const [time, setTime] = useState(0)
@@ -71,6 +72,7 @@ const Playstation = () => {
     const ulClick = (e) => {
         setCharacterSelection(e.target.textContent)
     }
+
     // check for correct click
     const checkForGuess = () => {
         if (characterSelection !== undefined) {
@@ -95,7 +97,6 @@ const Playstation = () => {
         setDropdown(!dropdown)
     }
 
-
     // user name input
     const handleSubmit = (e) => {
         e.preventDefault()
@@ -110,10 +111,9 @@ const Playstation = () => {
         addUser()
         
     }
-    
 
+    // checks for no characters left
     const checkForGameOver = () => {
-        // checks for no characters left
         if (characters.every(x => x.found)) {
             return (
                 setStopTimer(true),
@@ -157,7 +157,6 @@ const Playstation = () => {
         })
     }
 
-
     // add user to database
     const addUser = async () => {
         try {
@@ -188,6 +187,7 @@ const Playstation = () => {
                     </li>
                 </div>
             }
+
             <img src={require('../images/ps2.jpg').default} alt='ps2' className='ps2-image' onClick={(e) => handleClick(e)} />
 
             <div className='playstation-info-container'>
@@ -201,16 +201,13 @@ const Playstation = () => {
                             let divClass = char.found ? 'found-character-info' : 'character-info'
                             return ( 
                                 <div key={index} className={divClass}>
-                                    <div className='character-image'>
-                                        <img src={require('../images/' + char.name + '.png').default} alt={char.name} />
-                                    </div>
+                                    <img src={require('../images/' + char.name + '.png').default} alt={char.name}/>
                                     <p>{char.name}</p>
                                 </div>
-                                
                             )
                         })
                     }
-
+                </div>
                 <Modal
                     isOpen={modalOpen}
                     onRequestClose={() => setModalOpen(false)}
@@ -230,7 +227,6 @@ const Playstation = () => {
                         </div>
 
                         <h3>Here are our high scores so far:</h3>
-                        
                         <div className='modal-highscores'>
                             {
                                 sortedUsers.map((user, index) => {
@@ -251,13 +247,8 @@ const Playstation = () => {
                                     )
                                 })
                             }
-
                         </div>
-                        
                 </Modal>
-
-                </div>
-                
             </div>
         </div>
     )

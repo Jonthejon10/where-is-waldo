@@ -22,7 +22,7 @@ const App = () => {
           <Route exact path='/where-is-waldo/playstation' component={Playstation}/>  
         </Switch>
       
-      </BrowserRouter>
+    </BrowserRouter>
   )
 }
 
