@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/where-is-waldo/static/css/main.c0718ec4.chunk.css",
+    "main.js": "/where-is-waldo/static/js/main.352982d6.chunk.js",
+    "main.js.map": "/where-is-waldo/static/js/main.352982d6.chunk.js.map",
+    "runtime-main.js": "/where-is-waldo/static/js/runtime-main.998f013e.js",
+    "runtime-main.js.map": "/where-is-waldo/static/js/runtime-main.998f013e.js.map",
+    "static/js/2.9e56c1fd.chunk.js": "/where-is-waldo/static/js/2.9e56c1fd.chunk.js",
+    "static/js/2.9e56c1fd.chunk.js.map": "/where-is-waldo/static/js/2.9e56c1fd.chunk.js.map",
+    "index.html": "/where-is-waldo/index.html",
+    "static/css/main.c0718ec4.chunk.css.map": "/where-is-waldo/static/css/main.c0718ec4.chunk.css.map",
+    "static/js/2.9e56c1fd.chunk.js.LICENSE.txt": "/where-is-waldo/static/js/2.9e56c1fd.chunk.js.LICENSE.txt",
+    "static/media/Dante.png": "/where-is-waldo/static/media/Dante.c4390543.png",
+    "static/media/Kratos.png": "/where-is-waldo/static/media/Kratos.39b98aee.png",
+    "static/media/Tommy.png": "/where-is-waldo/static/media/Tommy.538f37c4.png",
+    "static/media/App.css": "/where-is-waldo/static/media/arcade.73895ecd.ttf",
+    "static/media/Home.css": "/where-is-waldo/static/media/ps2-preview.94c25553.jpg",
+    "static/media/ps2.jpg": "/where-is-waldo/static/media/ps2.601fcae2.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.998f013e.js",
+    "static/js/2.9e56c1fd.chunk.js",
+    "static/css/main.c0718ec4.chunk.css",
+    "static/js/main.352982d6.chunk.js"
+  ]
+}
