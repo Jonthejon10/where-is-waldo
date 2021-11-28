@@ -4,8 +4,8 @@ import '../styles/Footer.css'
 const Footer = () => {
 
     const handleClick = () => {
-    window.open("https://github.com/Jonthejon10")
-  }
+        window.open("https://github.com/Jonthejon10")
+    }
 
     return (
         <footer>

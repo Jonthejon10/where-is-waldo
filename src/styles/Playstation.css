@@ -1,6 +1,6 @@
 .playstation-container {
     display: flex;
-    flex-direction: row;
+    justify-content: space-between;
     font-family: arcade;
     font-size: 15px;
 }
@@ -26,15 +26,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 40vw;
+    flex-grow: 1;
 }
 
 .sticky-info {
-    position: fixed;
     display: flex;
     flex-direction: column;
     align-items: center;  
-    width: 21.2vw;
+    justify-content: center;
     height: 100%;
 }
 
@@ -49,7 +48,7 @@
 }
 
 .stopwatch-card {
-    font-size: 50px;
+    font-size: 40px;
     margin-top: 20px;
     font-family: arcade;
 }
@@ -65,7 +64,7 @@
 
 .character-info img {
     height: 90%;
-    width: 50%;
+    width: 200px;
     object-position: center;
     object-fit: contain;
 }
@@ -101,14 +100,15 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 50vw;
-    height: 60vh;
+    width: 50%;
+    height: 90%;
     background-color: #181a1b;
     outline: none;
     padding: 25px;
     text-align: center;
     font-family: arcade;
     font-size: 15px;
+    overflow: scroll;
 }
 
 .overlay {
