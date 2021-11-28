@@ -6,4 +6,4 @@ My first time using a database BaaS, here I stored user's times and character's 
 
 <a href="https://jonthejon10.github.io/where-is-waldo/">Live preview</a>
 
-<img src="src/components/images/project-preview.png">
+<img src="src/images/project-preview.png">
